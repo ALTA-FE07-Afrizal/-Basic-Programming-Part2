@@ -13,8 +13,10 @@ function ubahHuruf(huruf) {
     return str;
 }
 
-console.log(ubahHuruf("SEPULSA OKE"))     // COZEVCK YUO
-console.log(ubahHuruf("ALTERRA ACADEMY")) // KVDOBBK KMKNOWI
-console.log(ubahHuruf("INDONESIA"))       // SXNYXOCSK
-console.log(ubahHuruf("GOLANG"))          // QYVKXQ
-console.log(ubahHuruf("PROGRAMMER"))      // ZBYQBKWWOB
+// console.log(ubahHuruf("SEPULSA OKE"))     // COZEVCK YUO
+// console.log(ubahHuruf("ALTERRA ACADEMY")) // KVDOBBK KMKNOWI
+// console.log(ubahHuruf("INDONESIA"))       // SXNYXOCSK
+// console.log(ubahHuruf("GOLANG"))          // QYVKXQ
+// console.log(ubahHuruf("PROGRAMMER"))      // ZBYQBKWWOB
+
+module.exports = {ubahHuruf}

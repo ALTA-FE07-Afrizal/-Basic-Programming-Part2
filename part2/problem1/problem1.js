@@ -1,22 +1,21 @@
-// input
-let studentScore = 70;
-
-// Process: Your Solution Code Here
-switch (true) {
-    case studentScore < 35:
-        console.log("Nilai D");
-        break;
-    case studentScore < 50:
-        console.log("Nilai C");
-        break;
-    case studentScore < 65:
-        console.log("nilai B");
-        break;
-    case studentScore < 79:
-        console.log("Nilai B+");
-        break;
+function studentScore(score) {
+  switch (true) {
+    case score <= 35:
+      return `Nilai D`;
+    case score <= 50:
+      return `Nilai C`;
+    case score <= 65:
+      return `Nilai B`;
+    case score <= 79:
+      return `Nilai B+`;
+    case score <= 100:
+      return `Nilai A`;
     default:
-        console.log("Nilai A");
+      return `input nilai di bawah 100`;
+  }
 }
-// Output
-// Nilai A
+
+// console.log(studentScore(100));
+// console.log(studentScore(30));
+
+module.exports = { studentScore };
